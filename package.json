@@ -1,0 +1,41 @@
+{
+  "name": "common-utils",
+  "version": "1.0.0",
+  "description": "项目中常见的工具函数。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c",
+    "watch": "rollup -c -w",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.25.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "@babel/runtime": "^7.6.3",
+    "@babel/runtime-corejs3": "^7.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaoshuaibing/common-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "common"
+  ],
+  "author": "yaoshuaibing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaoshuaibing/common-utils/issues"
+  },
+  "homepage": "https://github.com/yaoshuaibing/common-utils#readme"
+}
